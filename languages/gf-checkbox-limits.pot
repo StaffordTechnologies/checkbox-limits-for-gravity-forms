@@ -1,1 +1,0 @@
-# Placeholder POT. Generate with wp i18n make-pot.
