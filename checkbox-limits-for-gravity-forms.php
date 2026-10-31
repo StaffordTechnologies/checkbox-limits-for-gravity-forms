@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name:       Checkbox Limits for Gravity Forms
- * Plugin URI:        https://staffordtechnologies.net/checkbox-limiter/
+ * Plugin URI:        https://staffordtechnologies.net/checkbox-limits-for-gravity-forms/
  * Description:       Adds min/max checkbox selection limits to Gravity Forms checkbox fields, with front-end disabling and per-page server validation.
- * Version:           1.0.3
+ * Version:           1.0.4
  * Author:            Stafford Technologies
  * Author URI:        https://staffordtechnologies.net/
  * License:           GPL-2.0-or-later
@@ -18,7 +18,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'GF_CHECKBOX_LIMITS_VERSION', '1.0.3' );
+define( 'GF_CHECKBOX_LIMITS_VERSION', '1.0.4' );
 define( 'GF_CHECKBOX_LIMITS_FILE', __FILE__ );
 define( 'GF_CHECKBOX_LIMITS_PATH', plugin_dir_path( __FILE__ ) );
 define( 'GF_CHECKBOX_LIMITS_URL', plugin_dir_url( __FILE__ ) );
@@ -76,7 +76,7 @@ function gf_checkbox_limits_plugin_row_meta( $links, $plugin_file ) {
 		return $links;
 	}
 
-	$page_url = 'https://staffordtechnologies.net/checkbox-limiter/';
+	$page_url = 'https://staffordtechnologies.net/checkbox-limits-for-gravity-forms/';
 
 	$links[] = sprintf(
 		'<a href="%s" target="_blank" rel="noopener noreferrer">%s</a>',

@@ -5,7 +5,7 @@ Tags: gravityforms, checkbox, validation, limits, forms
 Requires at least: 5.8
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,14 +31,14 @@ Features:
 * Uninstall-safe (uses the Add-On Framework uninstall; stores limits as field properties on the form)
 
 Author: Stafford Technologies — https://staffordtechnologies.net/
-Plugin docs and support: https://staffordtechnologies.net/checkbox-limiter/
+Plugin docs and support: https://staffordtechnologies.net/checkbox-limits-for-gravity-forms/
 Support email: helpdesk@staffordtechnologies.net
 
 == Installation ==
 
 1. Ensure Gravity Forms 2.5+ is installed and active.
 2. Go to Plugins → Add New → Upload Plugin, or install from the WordPress.org plugin directory.
-3. Upload `checkbox-limits-for-gravity-forms-1.0.3.zip` (or search for Checkbox Limits for Gravity Forms) and click Install Now, then Activate.
+3. Upload `checkbox-limits-for-gravity-forms-1.0.4.zip` (or search for Checkbox Limits for Gravity Forms) and click Install Now, then Activate.
 4. Edit a form, open a Checkbox field, set Min selections / Max selections (and optional message), then Update the form.
 
 == Frequently Asked Questions ==
@@ -66,10 +66,13 @@ Yes. Checkbox Limits for Gravity Forms is free ($0).
 = Where do I get support? =
 
 Email Stafford Technologies helpdesk at helpdesk@staffordtechnologies.net.
-Plugin docs and support page: https://staffordtechnologies.net/checkbox-limiter/
+Plugin docs and support page: https://staffordtechnologies.net/checkbox-limits-for-gravity-forms/
 Company site: https://staffordtechnologies.net/
 
 == Changelog ==
+
+= 1.0.4 =
+* Updated Docs, Support, and plugin URI links to the new plugin page.
 
 = 1.0.3 =
 * WordPress.org directory preparation: renamed plugin to "Checkbox Limits for Gravity Forms" (slug `checkbox-limits-for-gravity-forms`) so the name does not begin with the Gravity Forms trademark.
@@ -93,6 +96,9 @@ Company site: https://staffordtechnologies.net/
 * Initial release: field settings, front-end max enforcement, per-page server validation, plugin setting for default message.
 
 == Upgrade Notice ==
+
+= 1.0.4 =
+Updated Docs, Support, and plugin URI links to the new plugin page.
 
 = 1.0.3 =
 WordPress.org naming and slug update. Functionally equivalent to 1.0.2 with branding and readme changes for directory listing. Requires Gravity Forms 2.5+.
